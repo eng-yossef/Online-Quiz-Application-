@@ -2,4 +2,102 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+# Build Folders
+bin/
+obj/
+
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folder
+.vs/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.csproj.user
+
+# Compiled DLLs and other files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Resharper files
+_ReSharper.Caches/
+
+# Entity Framework generated files
+*.edmx.diagram
+*.edmx.sql
+*.edmx.tablemapping
+
+# Publish-related files
+app.publish/
+
+# Runtime files
+*.db
+*.sqlite
+*.sql
+
+# Configuration Files
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# Ignore Rider and JetBrains IDE files
+.idea/
+*.sln.iml
+
+# Ignore coverage results
+coverage/
+
+# Ignore tools and build artifacts
+TestResults/
+*.vspscc
+*.vssscc
+*.testsettings
+
+# Ignore ASP.NET files
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Node.js dependencies (if using npm for frontend)
+node_modules/
+
+# Mac-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Azure DevOps
+pipelines/*
+
+# Add more specific ignores for tools you use if necessary
+
